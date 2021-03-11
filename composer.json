@@ -1,0 +1,28 @@
+{
+    "name": "imphp/crypt",
+    "license": "MIT",
+    "description": "Encryption and Hash library",
+    "type": "library",
+
+    "authors": [
+        {
+            "name": "Daniel Bergløv",
+            "email": "d.bergloev@mailbox.com"
+        }
+    ],
+
+    "require": {
+        "imphp/base": "~1.1",
+        "ext-mbstring": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "im\\": "src/"
+        }
+    },
+
+    "suggest": {
+        "ext-php_openssl": "Needed in order to use the SSL Encryption class"
+    }
+}
