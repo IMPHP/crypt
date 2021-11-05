@@ -29,6 +29,18 @@ You can view the [Full Documentation](docs/crypt.md) to lean more.
 
 ### Installation
 
+__Using .phar library__
+
+```sh
+wget https://github.com/IMPHP/crypt/releases/download/<version>/imphp-crypt.phar
+```
+
+```php
+require "imphp-crypt.phar";
+
+...
+```
+
 __Clone via git__
 
 ```sh
